@@ -1,8 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+
+// ac43c9d5b561ca5d5bca6c09f6320901 - api key
+// https://api.themoviedb.org/3/movie/550?api_key=ac43c9d5b561ca5d5bca6c09f6320901- api
+// eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJhYzQzYzlkNWI1NjFjYTVkNWJjYTZjMDlmNjMyMDkwMSIsInN1YiI6IjY0MzNhNGQ1ZTkyZDgzMDBmNDZkNTBmNCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.bnxKuzojvJuQihfJY3Dg3L-NU_y0Fr_H_OEf1vXx8t4 - api read access token
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -11,7 +13,3 @@ root.render(
   </React.StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
